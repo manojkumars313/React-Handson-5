@@ -1,0 +1,48 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.movie {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  background-color: rgb(242, 159, 57);
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+  margin: 45px;
+}
+
+.review {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgba(236, 129, 179, 0.618);
+  width: 500px;
+  height: 400px;
+  margin: 50px;
+}
+
+button {
+  padding: 10px;
+  border: 0;
+  background-color: rgb(23, 25, 25);
+  cursor: pointer;
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+}
+
+button:hover {
+  box-shadow: 0 0 5px 2px rgba(41, 41, 42, 0.805);
+}
